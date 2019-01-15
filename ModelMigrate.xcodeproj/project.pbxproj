@@ -10,6 +10,16 @@
 		B6D1D0CA21ED960E007E5D27 /* ModelMigrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D1D0C021ED960E007E5D27 /* ModelMigrate.framework */; };
 		B6D1D0CF21ED960E007E5D27 /* ModelMigrateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0CE21ED960E007E5D27 /* ModelMigrateTests.swift */; };
 		B6D1D0D121ED960E007E5D27 /* ModelMigrate.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D1D0C321ED960E007E5D27 /* ModelMigrate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D1D0DB21ED962A007E5D27 /* MigrateDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0DA21ED962A007E5D27 /* MigrateDecoder.swift */; };
+		B6D1D0DD21ED9B17007E5D27 /* model0.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D1D0DC21ED9B17007E5D27 /* model0.json */; };
+		B6D1D0DF21EDA231007E5D27 /* Model_v0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0DE21EDA231007E5D27 /* Model_v0.swift */; };
+		B6D1D0E121EDA245007E5D27 /* Model_v1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0E021EDA245007E5D27 /* Model_v1.swift */; };
+		B6D1D0E321EDA2F7007E5D27 /* Model_v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0E221EDA2F7007E5D27 /* Model_v2.swift */; };
+		B6D1D0E521EDA623007E5D27 /* Model_v1_Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0E421EDA623007E5D27 /* Model_v1_Migration.swift */; };
+		B6D1D0E721EDA63A007E5D27 /* Model_v2_Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1D0E621EDA63A007E5D27 /* Model_v2_Migration.swift */; };
+		B6D1D0EB21EDC987007E5D27 /* model2.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D1D0E821EDC987007E5D27 /* model2.json */; };
+		B6D1D0EC21EDC987007E5D27 /* model1.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D1D0E921EDC987007E5D27 /* model1.json */; };
+		B6D1D0ED21EDC987007E5D27 /* model3.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D1D0EA21EDC987007E5D27 /* model3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,17 @@
 		B6D1D0C921ED960E007E5D27 /* ModelMigrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelMigrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D1D0CE21ED960E007E5D27 /* ModelMigrateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMigrateTests.swift; sourceTree = "<group>"; };
 		B6D1D0D021ED960E007E5D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D1D0DA21ED962A007E5D27 /* MigrateDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrateDecoder.swift; sourceTree = "<group>"; };
+		B6D1D0DC21ED9B17007E5D27 /* model0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model0.json; sourceTree = "<group>"; };
+		B6D1D0DE21EDA231007E5D27 /* Model_v0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_v0.swift; sourceTree = "<group>"; };
+		B6D1D0E021EDA245007E5D27 /* Model_v1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_v1.swift; sourceTree = "<group>"; };
+		B6D1D0E221EDA2F7007E5D27 /* Model_v2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_v2.swift; sourceTree = "<group>"; };
+		B6D1D0E421EDA623007E5D27 /* Model_v1_Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_v1_Migration.swift; sourceTree = "<group>"; };
+		B6D1D0E621EDA63A007E5D27 /* Model_v2_Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_v2_Migration.swift; sourceTree = "<group>"; };
+		B6D1D0E821EDC987007E5D27 /* model2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model2.json; sourceTree = "<group>"; };
+		B6D1D0E921EDC987007E5D27 /* model1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model1.json; sourceTree = "<group>"; };
+		B6D1D0EA21EDC987007E5D27 /* model3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model3.json; sourceTree = "<group>"; };
+		B6D1D0EE21EDCEE4007E5D27 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,7 @@
 		B6D1D0B621ED960E007E5D27 = {
 			isa = PBXGroup;
 			children = (
+				B6D1D0EE21EDCEE4007E5D27 /* Readme.md */,
 				B6D1D0C221ED960E007E5D27 /* ModelMigrate */,
 				B6D1D0CD21ED960E007E5D27 /* ModelMigrateTests */,
 				B6D1D0C121ED960E007E5D27 /* Products */,
@@ -71,6 +93,7 @@
 		B6D1D0C221ED960E007E5D27 /* ModelMigrate */ = {
 			isa = PBXGroup;
 			children = (
+				B6D1D0DA21ED962A007E5D27 /* MigrateDecoder.swift */,
 				B6D1D0C321ED960E007E5D27 /* ModelMigrate.h */,
 				B6D1D0C421ED960E007E5D27 /* Info.plist */,
 			);
@@ -81,7 +104,16 @@
 			isa = PBXGroup;
 			children = (
 				B6D1D0CE21ED960E007E5D27 /* ModelMigrateTests.swift */,
+				B6D1D0DE21EDA231007E5D27 /* Model_v0.swift */,
+				B6D1D0E421EDA623007E5D27 /* Model_v1_Migration.swift */,
+				B6D1D0E021EDA245007E5D27 /* Model_v1.swift */,
+				B6D1D0E621EDA63A007E5D27 /* Model_v2_Migration.swift */,
+				B6D1D0E221EDA2F7007E5D27 /* Model_v2.swift */,
 				B6D1D0D021ED960E007E5D27 /* Info.plist */,
+				B6D1D0DC21ED9B17007E5D27 /* model0.json */,
+				B6D1D0E921EDC987007E5D27 /* model1.json */,
+				B6D1D0E821EDC987007E5D27 /* model2.json */,
+				B6D1D0EA21EDC987007E5D27 /* model3.json */,
 			);
 			path = ModelMigrateTests;
 			sourceTree = "<group>";
@@ -148,6 +180,7 @@
 				TargetAttributes = {
 					B6D1D0BF21ED960E007E5D27 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					B6D1D0C821ED960E007E5D27 = {
 						CreatedOnToolsVersion = 10.1;
@@ -184,6 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D1D0EB21EDC987007E5D27 /* model2.json in Resources */,
+				B6D1D0EC21EDC987007E5D27 /* model1.json in Resources */,
+				B6D1D0DD21ED9B17007E5D27 /* model0.json in Resources */,
+				B6D1D0ED21EDC987007E5D27 /* model3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D1D0DB21ED962A007E5D27 /* MigrateDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D1D0E721EDA63A007E5D27 /* Model_v2_Migration.swift in Sources */,
 				B6D1D0CF21ED960E007E5D27 /* ModelMigrateTests.swift in Sources */,
+				B6D1D0E321EDA2F7007E5D27 /* Model_v2.swift in Sources */,
+				B6D1D0E121EDA245007E5D27 /* Model_v1.swift in Sources */,
+				B6D1D0DF21EDA231007E5D27 /* Model_v0.swift in Sources */,
+				B6D1D0E521EDA623007E5D27 /* Model_v1_Migration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +383,7 @@
 		B6D1D0D521ED960E007E5D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -358,6 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = am.ModelMigrate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -365,6 +410,7 @@
 		B6D1D0D621ED960E007E5D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -390,6 +436,7 @@
 		B6D1D0D821ED960E007E5D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ModelMigrateTests/Info.plist;
@@ -407,6 +454,7 @@
 		B6D1D0D921ED960E007E5D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ModelMigrateTests/Info.plist;
